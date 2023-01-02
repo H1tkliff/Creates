@@ -1,0 +1,105 @@
+.benefits{
+    margin-bottom: 120px;
+    &__subtitle{
+        font-size: 16px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        text-align: center;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $color-text;
+    }
+    &__title{
+        font-size: 46px;
+        line-height: 130%;
+        font-family: Lato-black;
+        text-align: center;
+        color: $color-text;
+        margin-bottom: 60px;
+    }
+}
+
+.benefits-interacktive{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 182px;
+    &__button{
+        width: 307px;
+        height: 46px;
+        border-radius: 4px;
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-bold;
+        color: #9A9CA5;
+        background: white;
+        position: relative;
+        padding-left: 30px;
+    }
+    &__button--active{
+        border: 1px solid #FF3F3A;
+        color: $color-background;
+    }
+    &__text--icon-star::before{
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 14px;
+        background: url(../../img/icons/Star.svg);
+        left: 73px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    &__text--icon-like::before{
+        content: "";
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        background: url(../../img/icons/like.svg);
+        left: 73px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    &__text--icon-layouts::before{
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 15px;
+        background: url(../../img/icons/Layouts.svg);
+        left: 73px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    &__text--icon-chat::before{
+        content: "";
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        background: url(../../img/icons/chat.svg);
+        left: 93px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+.benefits-tutors{
+    display: flex;
+    justify-content: space-between;
+}
+.benefits-tutors-left{
+    &__title{
+        font-size: 32px;
+        line-height: 130%;
+        font-family: Lato-black;
+        color: $color-text;
+        margin-bottom: 24px;
+    }
+    &__text{
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-regular;
+        outline-color: $color-title;
+        width: 487px;
+    }
+}
+
+
+

@@ -1,0 +1,33 @@
+.feedback-wrapper{
+    // margin-bottom: 180px;
+}
+
+.about-feedback{
+     margin-top: 120px;
+     background: url(../../img/team-background.png);
+    //  height: 852px;
+     transform: none;
+    margin-bottom: 120px;
+    &__subtitle{
+        padding-top: 250px;
+        font-size: 16px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        text-align: center;
+        color: $color-text;
+        margin-bottom: 8px;
+    }
+    &__title{
+        font-size: 46px;
+        line-height: 130%;
+        font-family: Lato-black;
+        text-align: center;
+        color: $color-text;
+        margin-bottom: 60px;
+    }
+}
+
+.about-feedback-wrapper{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}

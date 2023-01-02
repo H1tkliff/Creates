@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+@@include('html/head.html',{
+"title": "Главная"
+})
+</head>
+<body>
+    @@include('html/Courses/header-allcourses.html',{})
+    <main>
+        @@include('html/Courses/our-courses.html',{})
+        @@include('html/Homepage/feedback.html',{})
+        @@include('html/Homepage/certificate.html',{})
+        @@include('html/Homepage/subscribe.html',{})
+    </main>
+        @@include('html/Courses/footer-allcourses.html',{})
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/app.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+//COURSES START
+.courses{
+    margin-bottom: 180px;
+    &__subtitle{
+        font-size: 16px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        color: $color-text;
+        margin-bottom: 8px;
+    }
+}
+.courses-featured{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    &__title{
+        font-size: 46px;
+        line-height: 130%;
+        font-family: Lato-black;
+        color: $color-text;
+    }
+    &__button{
+        width: 202px;
+        height: 52px;
+        border: 2px solid $color-background;
+        background-color: white;
+        font-size: 16px;
+        line-height: 52px;
+        font-family: Lato-bold;
+        letter-spacing: 0.5px;
+        color: $color-background;
+    }
+    &__button:hover{
+        background: $color-background;
+        color: white;
+    }
+}
+.courses-cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+      grid-gap: 0px 30px;
+    &__card{
+        display: flex;
+        max-width: 600px;
+        height: 214px;
+        background: #FFFFFF;
+        border: 1px solid #E5E8ED;
+        // margin-right: 30px;
+        margin-bottom: 30px;
+    }
+    &__card:hover{
+        opacity: 0.7;
+    }
+    &__card-left{
+        padding-right: 32px;
+    }
+    &__subtitle{
+        margin-top: 33px;
+        font-size: 14px;
+        line-height: 150%;
+        font-family: Lato-regular;
+        color: #FFFFFF;
+        margin-bottom: 20px;
+        padding: 1px 8px;
+        border-radius: 4px;
+         
+    }
+    &__marketing{
+        background: #03CEA4;
+        width: 79px;
+        height: 23px;
+    }
+     &__managment{
+        background: #5A87FC;
+        width: 97px;
+        height: 23px;
+     }
+     &__hr{
+        background: #F89828;
+        width: 112px;
+        height: 23px;
+     }
+     &__design{
+        background: #F52F6E;
+        width: 59px;
+        height: 23px;
+     }
+
+     &__title{
+        font-size: 20px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        color: $color-text;
+        margin-bottom: 20px;
+     }
+     &__price{
+        font-size: 18px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        color: #FF4242;
+     }
+     &__by{
+        font-size: 18px;
+        line-height: 150%;
+        font-family: Lato-regular;
+        color: $color-subtitle;
+     }
+}
+
+
+
+//COURSES END

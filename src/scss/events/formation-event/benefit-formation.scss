@@ -1,0 +1,119 @@
+.benefit{
+    margin-bottom: 180px;
+}
+.benefit-wrapper{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.benefit-wrapper-left{
+    &__subtitle{
+        font-size: 16px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $color-text;
+        margin-bottom: 8px;
+    }
+    &__title{
+        width: 492px;
+        font-size: 46px;
+        line-height: 130%;
+        font-family: Lato-black;
+        color: $color-text;
+    }
+
+}
+
+.benefit-wrapper-right{
+    &__item{
+        padding-left: 36px;
+        font-size: 20px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        color: $color-title;
+        margin-bottom: 20px;
+        position: relative;
+        width: 564px;
+    }
+    &__item::before{
+        position: absolute;
+        content: "";
+        background: url(../../../img/icons/check-red-icon.svg);
+        width: 16px;
+        height: 16px;
+        left: 0;
+    }
+}
+.benefit-subscribe{
+    background-color: #FEDCD1;
+    margin-bottom: 120px;
+}
+
+.benefit-subscribe-wrapper{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.benefit-subscribe-left{
+    padding-top: 60px;
+    margin-bottom: 60px;
+}
+
+.benefit-subscribe-right{
+     padding-top: 60px;
+      margin-bottom: 60px;
+    &__title{
+        font-size: 32px;
+        line-height: 130%;
+        font-family: Lato-black;
+        color: $color-text;
+        width: 600px;
+        margin-bottom: 48px;
+    }
+    &__form{
+        margin-bottom: 24px;
+    }
+    &__input{
+        width: 422px;
+        height: 52px;
+        border: 1px solid #D7DADD;
+        border-radius: 4px;
+        background: white;
+        padding-left: 16px;
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-regular;
+        color: #9A9CA5;
+        margin-right: 24px;
+    }
+    &__input::placeholder{
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-regular;
+        color: #9A9CA5;
+    }
+    &__button{
+        width: 154px;
+        height: 52px;
+        background: $color-background;
+        border-radius: 4px;
+        font-size: 16px;
+        line-height: 52px;
+        font-family: Lato-bold;
+        letter-spacing: 0.5px;
+        color: white;
+    }
+    &__check{
+        margin-right: 8px;
+    }
+    &__info{
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-regular;
+        color: $color-title;
+    }
+}

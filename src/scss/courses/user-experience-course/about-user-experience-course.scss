@@ -1,0 +1,106 @@
+.about-course{
+    margin-bottom: 180px;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+.about-course-left-content{
+    &__title{
+        font-size: 46px;
+        line-height: 130%;
+        font-family: Lato-black;
+        color: $color-text;
+        margin-bottom: 40px;
+    }
+    &__text{
+        max-width: 600px;
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-regular;
+        color: $color-title;
+        margin-bottom: 48px;
+    }
+
+    &__subtitle{
+        font-size: 28px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        color: $color-title;
+        margin-bottom: 24px;
+    }
+
+    &__info{
+        margin-bottom: 4px;
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-regular;
+        color: $color-text;
+        padding-left: 34px;
+        position: relative;
+    }
+    &__info::before{
+        position: absolute;
+        content: "";
+        background: url(../../../img/icons/check-red-icon.svg);
+        width: 16px;
+        height: 16px;
+        left: 0;
+        top: 5.5px;
+    }
+}
+
+.about-course-right-content{
+    border: 1px solid #E5E8ED;
+    box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+    border-radius: 4px;
+    width: 495px;
+
+    &__subtitle{
+        padding-left: 32px;
+        font-size: 14px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $color-text;
+        margin-bottom: 4px;
+    }
+    &__subtitle:first-child{
+        padding-top: 40px;
+    }
+    &__title{
+        padding-left: 32px;
+        font-size: 24px;
+        line-height: 130%;
+        font-family: Lato-bold;
+        color: $color-background;
+        margin-bottom: 8px;
+    }
+    &__text{
+        padding-left: 32px;
+        display: block;
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-regular;
+        color: $color-subtitle;
+        max-width: 429px;
+        margin-bottom: 32px;
+    }
+    &__button{
+        margin-top: 8px;
+        width: 431px;
+        height: 44px;
+        background: $color-background;
+        border-radius: 4px;
+        margin-left: 32px;
+        font-size: 14px;
+        line-height: 44px;
+        font-family: Lato-bold;
+        letter-spacing: 0.5px;
+        color: white;
+    }
+    
+}

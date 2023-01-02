@@ -1,0 +1,107 @@
+.questions-wrapper-right__label{
+    display: block;
+}
+
+.questions-wrapper-right__info{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.questions-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.questions{
+    margin-bottom: 180px;
+}
+
+
+.questions-wrapper-right{
+    &__subtitle{
+        font-size: 16px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        color: $color-text;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+    }
+    &__title{
+        font-size: 46px;
+        line-height: 130%;
+        font-family: Lato-black;
+        color: $color-text;
+        margin-bottom: 40px;
+    }
+    &__info{
+        margin-bottom: 24px;
+    }
+    &__label{
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-regular;
+        color: $color-title;
+        margin-bottom: 8px;
+    }
+    &__input{
+        width: 340px;
+        height: 52px;
+        border: 1px solid #D7DADD;
+        border-radius: 4px;
+        padding-left: 16px;
+    }
+     &__input::placeholder{
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-regular;
+        color: #9A9CA5;
+     }
+     &__input--margin{
+        margin-right: 25px;
+     }
+     &__message{
+        margin-bottom: 48px;
+     }
+     &__message-input{
+        width: 705px;
+        height: 128px;
+        border: 1px solid #D7DADD;
+        border-radius: 4px;
+        position: relative;
+        padding-left: 16px;
+     }
+      &__message-input::placeholder{
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-regular;
+        color: #9A9CA5;
+        position: absolute;
+        top: 13px;
+      }
+      &__container{
+        display: flex;
+      }
+      &__checkbox{
+        margin-right: 12px;
+      }
+      &__checkbox-label{
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-regular;
+        color: $color-title;
+        max-width: 287px;
+        margin-right: 50px;
+      }
+      &__button{
+        width: 340px;
+        height: 52px;
+        background: $color-background;
+        color: white;
+        font-size: 16px;
+        line-height: 52px;
+        font-family: Lato-bold;
+        letter-spacing: 0.5px;
+      }
+}

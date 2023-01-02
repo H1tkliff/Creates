@@ -1,0 +1,23 @@
+.header{
+    &__subtitle{
+        font-size: 16px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $color-background;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+    &__title{
+        font-size: 46px;
+        line-height: 130%;
+        font-family: Lato-black;
+        text-align: center;
+        color: $color-text;
+        padding-bottom: 120px;
+        max-width: 1148px;
+        padding-left: 75px;
+        
+    }
+}

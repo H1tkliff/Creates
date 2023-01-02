@@ -1,0 +1,254 @@
+.our-events{
+    &__subtitle{
+        font-size: 16px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        color: $color-text;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+    &__title{
+        font-size: 46px;
+        line-height: 130%;
+        font-family: Lato-black;
+        color: $color-text;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+}
+.our-events-sort{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 72px;
+}
+.our-events-category{
+    &__event{
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-bold;
+        color: $color-title;
+        padding-right: 12px;
+    }
+    &__themes{
+        border: 1px solid #D7DADD;
+        border-radius: 4px;
+        width: 160px;
+        height: 44px;
+        padding-top: 11px;
+        padding-bottom: 12px;
+        padding-left: 16px;
+        font-size: 14px;
+        line-height: 150%;
+        font-family: Lato-regular;
+        color: $color-text;
+        
+    }
+}
+.our-events-sortby{
+    &__sort{
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-bold;
+        color: $color-title;
+        padding-right: 12px;
+    }
+    &__themes{
+        border: 1px solid #D7DADD;
+        border-radius: 4px;
+        width: 160px;
+        height: 44px;
+        padding-top: 11px;
+        padding-bottom: 12px;
+        padding-left: 16px;
+        font-size: 14px;
+        line-height: 150%;
+        font-family: Lato-regular;
+        color: $color-text;
+    }
+}
+.our-events-show{
+    &__label{
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-bold;
+        color: $color-title;
+        padding-right: 12px;
+    }
+    &__column{
+        border: 1px solid #D7DADD;
+        border-radius: 4px;
+        width: 72px;
+        height: 44px;
+        padding-top: 11px;
+        padding-bottom: 12px;
+        padding-left: 16px;
+        font-size: 14px;
+        line-height: 150%;
+        font-family: Lato-regular;
+        color: $color-text;
+        
+    }
+    &__desc{
+        padding-left: 12px;
+        font-size: 14px;
+        line-height: 150%;
+        font-family: Lato-regular;
+        color: $color-subtitle;
+    }
+}
+.our-events-search{
+    &__form{
+        position: relative;
+    }
+    &__input{
+        width: 282px;
+        height: 44px;
+        border: 1px solid #D7DADD;
+        border-radius: 4px;
+        padding-left: 16px;
+    }
+    &__input::placeholder{
+        font-size: 14px;
+        line-height: 150%;
+        font-family: Lato-regular;
+        color: #9A9CA5;
+        padding-top: 11px;
+        padding-bottom: 12px;
+        
+    }   
+    &__button{
+        position: absolute;
+        background: white;
+        top: 14px;
+        right: 13px;
+        width: 14px;
+        height: 14px;
+    }
+}
+.our-events-view{
+    &__list-img{
+        background: white;
+        padding-top: 12px;
+        padding-right: 6px;
+    }
+    &__grid-img{
+         background: white;
+    }
+}
+
+.our-events-cards{
+    margin-bottom: 60px;
+}
+.our-events-card{
+        border: 1px solid #E5E8ED;
+        border-radius: 4px;
+}
+.our-events-card:hover{
+    box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+}
+
+.our-events-pagination{
+    text-align: center;
+     position: relative;
+     margin-bottom: 180px;
+    &__number{
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-bold;
+        color: $color-text;
+        padding-right: 20px;
+    }
+    &__selected{
+        color: #FF3F3A;
+    }
+    &__next{
+        background: white;
+        position: absolute;
+        top: 1px;
+    }
+}
+
+.events-information-card__button-small{
+    margin-left: 10px;
+}
+
+.events-information-card__button{
+    display: block;
+    text-align: center;
+}
+
+
+//GRID VIEW
+.our-events-cards-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.events-information-card{
+    &__num-grid{
+        font-size: 28px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        color: #FF3F3A;
+        padding-left: 24px;
+        margin-top: 24px;
+        display: block;
+        margin-bottom: 4px;
+    }
+    &__time-grid{
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-regular;
+        color: $color-subtitle;
+        margin-bottom: 20px;
+        padding-left: 24px;
+    }
+    &__title-grid{
+        font-size: 18px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        color: $color-text;
+        margin-bottom: 8px;
+        padding-left: 24px;
+        width: 366px;
+    }
+    &__subtitle-grid{
+        display: block;
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-regular;
+        color: $color-subtitle;
+        margin-bottom: 51px;
+        padding-left: 24px;
+    }
+    &__button-grid{
+        display: block;
+        margin-left: 24px;
+        width: 342px;
+        height: 44px;
+        border-radius: 4px;
+        border: 1px solid $color-background;
+        text-align: center;
+        font-size: 14px;
+        line-height: 44px;
+        font-family: Lato-bold;
+        letter-spacing: 0.5px;
+        color: $color-background;
+
+    }
+    &__button-grid:hover{
+        background: $color-background;
+        color: white;
+    }
+}
+
+.events-information-card-grid{
+    width: 390px;
+    height: 323px;
+    border: 1px solid #E5E8ED;
+    box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+    border-radius: 4px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+

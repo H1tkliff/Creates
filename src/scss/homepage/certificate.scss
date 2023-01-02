@@ -1,0 +1,44 @@
+.certificate__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.certificate-info{
+    padding-right: 60px;
+    &__subtitle{
+        font-size: 16px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        color: $color-text;
+        padding-bottom: 8px;
+    }
+    &__title{
+        font-size: 46px;
+        line-height: 130%;
+        font-family: Lato-black;
+        color: $color-text;
+        padding-bottom: 48px;
+    }
+    &__text{
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-regular;
+        color: $color-title;
+        padding-bottom: 32px;
+        
+    }
+}
+.certificate-info__icons{
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+.certificate-info__img{
+  display: block;
+    padding-right: 30px;
+}
+.certificate-image{
+    z-index: 2;
+    height: 500px;
+   
+}

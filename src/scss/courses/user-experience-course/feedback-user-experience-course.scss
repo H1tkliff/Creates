@@ -1,0 +1,64 @@
+.feedback-user-experience{
+    height: auto;
+}
+.feedback-wrapper-user-experience{
+    margin-bottom: 180px;
+}
+.register{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.register-right{
+    margin-bottom: 100px;
+    &__subtitle{
+        font-size: 16px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $color-text;
+        margin-bottom: 8px;
+
+    }
+    &__title{
+        font-size: 46px;
+        line-height: 130%;
+        font-family: Lato-black;
+        color: $color-text;
+        margin-bottom: 40px;
+    }
+    &__label{
+        display: block;
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-regular;
+        color: $color-title;
+        margin-bottom: 8px;
+    }
+    &__input{
+        width: 495px;
+        height: 52px;
+        margin-bottom: 24px;
+        padding-left: 16px;
+    }
+    &__input::placeholder{
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-regular;
+        color: #9A9CA5;
+        
+    }   
+    &__button{
+        margin-top: 16px;
+        width: 495px;   
+        height: 52px;
+        background: $color-background;
+        font-size: 16px;
+        line-height: 52px;
+        font-family: Lato-bold;
+        letter-spacing: 0.5px;
+        color: white;
+    }
+}

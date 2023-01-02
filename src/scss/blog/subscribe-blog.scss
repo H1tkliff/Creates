@@ -1,0 +1,64 @@
+.subscribe-blog{
+    background: #F4F5F7;
+    height: 454px;  
+}
+
+.subscribe-blog-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribe-blog-wrapper-right{
+    &__title{
+        font-size: 32px;
+        line-height: 130%;
+        font-family: Lato-black;
+        color: $color-text;
+        padding-top: 100px;
+        max-width: 600px;
+        margin-bottom: 48px;
+    }
+    &__form-input{
+        
+    }
+    &__input{
+        width: 422px;
+        height: 52px;
+        margin-right: 24px;
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-bold;
+        padding-left: 16px;
+    }
+    &__input::placeholder{
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-regular;
+        color: #9A9CA5;
+    }
+  
+    &__button{
+        width: 154px;
+        height: 52px;
+        background-color: $color-background;
+        color: white;
+        font-size: 16px;
+        line-height: 52px;
+        font-family: Lato-bold;
+        letter-spacing: 0.5px;
+        
+    }
+    &__form-checkbox{
+        padding-top: 24px;
+    }
+    &__checkbox{
+        
+    }
+
+    &__label{
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-regular;
+        color: $color-text;
+    }
+}

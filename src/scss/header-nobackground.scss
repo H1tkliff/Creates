@@ -1,0 +1,73 @@
+.header{
+    margin-bottom: 80px;
+}
+
+.container{
+    width: $max-width-container;
+    margin: 0 auto;
+}
+
+.header-background{
+    // background-image: url(../img/background.jpg);
+        // background-color: white;  
+}
+.header-nobackground{
+    background-image: none;
+}
+
+.top-menu{
+    margin-bottom: 140px;
+    display: flex;
+    justify-content: space-between;
+    &__list{
+        margin-top: 35px;
+        display: flex;
+    }
+    &-item{
+        padding-right: 60px;
+    }
+    &__items{
+        padding-right: 40px;
+    }
+     &__items:last-child{
+        padding-right: 0px;
+     }
+     &__links{
+        font-size: 16px;
+        font-family: Lato-bold;
+        line-height: 160%;
+        color: $color-title;
+     }
+     &__button{
+        margin-top: 20px;
+        width: 206px;
+        height: 52px;
+        background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+        border-radius: 4px;
+        padding: 0px 40px;
+        font-size: 16px;
+        line-height: 52px;
+        font-family: Lato-bold;
+        color: #FFFFFF;
+        margin-right: 44px;
+     }
+     &__log-in,
+     &__register{
+        color: #424551;
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-bold;
+        position: relative;
+     }
+     &__log-in::before{
+        content: "";
+        width: 18px;
+        height: 18px;
+        position: absolute;
+        background: url(../../img/log-in-icon.svg);
+       left: -45%;
+        top: -1%;
+
+     }
+    
+}

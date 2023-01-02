@@ -1,0 +1,341 @@
+.info-hr-statistics{
+    margin-bottom: 120px;
+}
+.info-hr-statistics-wrapper{
+    display: flex;
+}
+
+.info-hr-statistics-wrapper-left{
+    margin-right: 78px;
+    &__theme{
+        padding-left: 24px;
+        position: relative;
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-regular;
+        color: $color-title;
+    }
+    &__theme::before{
+        position: absolute;
+        content: "";
+        background: url(../../../img/icons/our-blog-artikels.svg);
+        width: 16px;
+        height: 16px;
+        left: 0;
+        top: 1px;
+    }
+    &__type{
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-bold;
+        color: $color-background;
+    }
+    &__title{
+        margin-top: 12px;
+        font-size: 46px;
+        line-height: 130%;
+        font-family: Lato-black;
+        color: $color-text;
+        width: 810px;
+        margin-bottom: 26px;
+    }
+    &__container{
+        width: 810px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+    &__container-left-data{
+        padding-left: 24px;
+        position: relative;
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-regular;
+        color: $color-subtitle;
+        
+    }
+    &__container-left-data::before{
+        background: url(../../../img/icons/calendar-gray.svg);
+        content: "";
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        left: 0;
+        top: 1px;
+        
+    }
+    &__container-left-duration{
+        padding-left: 47px;
+        position: relative;
+         font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-regular;
+        color: $color-subtitle;
+    }
+    &__container-left-duration::before{
+        background: url(../../../img/icons/clock-gray.svg);
+        content: "";
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        left: 24px;
+        top: 1px;
+    }
+
+    &__container-right-links{
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-bold;
+        color: $color-text;
+    }
+    &__subtitle{
+        margin-top: 60px;
+        width: 810px;
+        font-size: 20px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        color: $color-text;
+        margin-bottom: 24px;
+    }
+    &__text-one{
+        width: 810px;
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-regular;
+        color: $color-title;
+        margin-bottom: 30px;
+    }
+    &__text-two{
+        width: 810px;
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-regular;
+        color: $color-title;
+        margin-bottom: 48px;
+    }
+    &__paragraph{
+        font-size: 20px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        color: $color-text;
+        width: 752px;
+        padding-left: 58px;
+        position: relative;
+    }
+    &__paragraph::before{
+        position: absolute;
+        background: url(../../../img/blog/hr-statistics/paragraph-img.png);
+        content: "";
+        width: 28px;
+        height: 20px;
+        left: 0;
+        margin-bottom: 48px;
+    }
+    &__prev-ul{
+        width: 810px;
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-regular;
+        margin-bottom: 24px;
+        color: $color-title;
+    }
+    &__list{
+        margin-bottom: 24px;
+    }
+    &__item{
+        padding-left: 32px;
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-regular;
+        color: $color-title;
+        position: relative;
+    }
+    &__item::before{
+        position: absolute;
+        content: "";
+        background: url(../../../img/icons/check-red-icon.svg);
+        width: 16px;
+        height: 16px;
+        left: 0;
+    }
+    &__next-ul{
+        width: 810px;
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-regular;
+        margin-bottom: 60px;
+        color: $color-title;
+    }
+    &__container-tags{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__container-tags-left-subtitle{
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-bold;
+        color: $color-text;
+        margin-right: 12px;
+    }
+    &__container-tags-left-tag{
+        border: 1px solid #D7DADD;
+        border-radius: 4px;
+        margin-right: 12px;
+        background: white;
+        font-size: 14px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        color: $color-subtitle;
+    }
+    &__container-tags-left-tag:hover{
+        background: $color-background;
+        color: white;
+    }
+    &__container-right-links{
+        margin-right: 12px;
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-bold;
+        color: $color-text;
+    }
+     &__container-right-link{
+        margin-right: 12px;
+     }
+     &__container-right-link:last-child{
+        margin-right: 0px;  
+     }
+}
+
+
+
+
+
+
+.info-hr-statistics-wrapper-right{
+    &__form{
+        position: relative;
+    }
+    &__input{
+        width: 342px;
+        height: 44px;
+        border: 1px solid #D7DADD;
+        border-radius: 4px;
+        padding-left: 16px;
+        margin-bottom: 72px;
+    }
+    &__input::placeholder{
+        font-size: 14px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        color: #9A9CA5;
+    }
+    &__button{
+        position: absolute;
+        background: white;
+        top: 14px;
+        right: 14px;
+    }
+    &__subtitle{
+        font-size: 16px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $color-text;
+        margin-bottom: 24px;
+    }
+    &__container-author{
+        display: flex;
+        margin-bottom: 44px;
+    }
+    &__container-author-left{
+        margin-right: 20px;
+    }
+    &__container-author-right-name{
+        font-size: 20px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        color: $color-title;
+        margin-bottom: 4px;
+
+    }
+    &__container-author-right-work{
+        font-size: 14px;
+        line-height: 150%;
+        font-family: Lato-regular;
+        color: $color-subtitle;
+        margin-bottom: 20px;
+    }
+     &__container-author-right-link{
+        margin-right: 12px;
+     }
+     &__articles{
+        font-size: 16px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $color-text;
+        margin-bottom: 24px;
+     }
+     &__tags{
+        font-size: 16px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        color: $color-text;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin-bottom: 31px;
+     }
+    &__learning{
+        width: 91px;
+        height: 32px;
+    }
+    &__hr{
+        width: 60px;
+        height: 32px;
+    }
+    &__self-development{
+        width: 149px;
+        height: 32px;
+    }
+    &__marketing{
+        width: 104px;
+         height: 32px;
+         margin-bottom: 12px;
+    }
+    &__recruiting{
+        width: 101px;
+        height: 32px;
+    }
+    &__coding{
+        width: 82px;
+        height: 32px;
+    }
+}
+
+
+.info-hr-statistics-wrapper-right-article{
+     margin-bottom: 60px;
+    &__card{
+        display: flex;
+        margin-bottom: 24px;
+    }
+    &__left{
+        margin-right: 20px;
+    }
+    &__right-data{
+        font-size: 14px;
+        line-height: 150%;
+        font-family: Lato-regular;
+        color: $color-subtitle;
+        margin-bottom: 4px;
+    }
+    &__right-theme{
+        width: 222px;
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-bold;
+        color: $color-text;
+    }
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('html/head.html',{
+"title": "Главная"
+})
+
+<body>
+    @@include('html/Events/Formation-event/header-formation.html',{})
+
+    <main>
+        @@include('html/Events/Formation-event/speaker-formation.html',{})
+        @@include('html/Events/Formation-event/benefit-formation.html',{})
+        @@include('html/Events/Formation-event/join-formation.html',{})
+        @@include('html/Events/Formation-event/other-formation.html',{})
+    
+    </main>
+
+    @@include('html/Events/Formation-event/footer-formation.html',{})
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/app.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,371 @@
+//выпадающий список
+// .course-programm-wrapper-left__input {
+//   display: none;
+// }
+// .course-programm-wrapper-left__text {
+//   max-height: 0;
+//   overflow: hidden;
+//   transition: 0.4s;
+// }
+
+// .course-programm-wrapper-left__input:checked~.course-programm-wrapper-left__text {
+//   max-height: 100px;
+// }
+
+// .course-programm-wrapper-left__label::before {
+//   content: "";
+//   position: absolute;
+//   left: -125px;
+//   top: 7px;
+//   background: url(../../../img/icons/Minus.svg);
+//   width: 18px;
+//   height: 18px;
+// }
+
+// .course-programm-wrapper-left__input:checked~.course-programm-wrapper-left__label::before {
+//     background: url(../../../img/icons/Plus.svg);
+//     width: 18px;
+//     height: 18px;
+// }
+
+// .course-programm-wrapper-left__label {
+//   display: block;
+//   position: relative;
+//   margin-bottom: 16px;
+//   display: inline-block;
+// }
+
+//1
+.course-programm-wrapper-left__input-1 {
+  display: none;
+}
+.course-programm-wrapper-left__text-1 {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.4s;
+}
+
+.course-programm-wrapper-left__input-1:checked~.course-programm-wrapper-left__text-1 {
+  max-height: 100px;
+}
+
+.course-programm-wrapper-left__label-1::before {
+  content: "";
+  position: absolute;
+  left: -125px;
+  top: 7px;
+  background: url(../../../img/icons/Minus.svg);
+  width: 18px;
+  height: 18px;
+}
+
+.course-programm-wrapper-left__input-1:checked~.course-programm-wrapper-left__label-1::before {
+    background: url(../../../img/icons/Plus.svg);
+    width: 18px;
+    height: 18px;
+}
+
+.course-programm-wrapper-left__label-1 {
+  display: block;
+  position: relative;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+//2
+.course-programm-wrapper-left__input-2 {
+  display: none;
+}
+.course-programm-wrapper-left__text-2 {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.4s;
+}
+
+.course-programm-wrapper-left__input-2:checked~.course-programm-wrapper-left__text-2 {
+  max-height: 100px;
+}
+
+.course-programm-wrapper-left__label-2::before {
+  content: "";
+  position: absolute;
+  left: -125px;
+  top: 7px;
+  background: url(../../../img/icons/Minus.svg);
+  width: 18px;
+  height: 18px;
+}
+
+.course-programm-wrapper-left__input-2:checked~.course-programm-wrapper-left__label-2::before {
+    background: url(../../../img/icons/Plus.svg);
+    width: 18px;
+    height: 18px;
+}
+
+.course-programm-wrapper-left__label-2 {
+  display: block;
+  position: relative;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+//3
+.course-programm-wrapper-left__input-3 {
+  display: none;
+}
+.course-programm-wrapper-left__text-3 {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.4s;
+}
+
+.course-programm-wrapper-left__input-3:checked~.course-programm-wrapper-left__text-3 {
+  max-height: 100px;
+}
+
+.course-programm-wrapper-left__label-3::before {
+  content: "";
+  position: absolute;
+  left: -125px;
+  top: 7px;
+  background: url(../../../img/icons/Minus.svg);
+  width: 18px;
+  height: 18px;
+}
+
+.course-programm-wrapper-left__input-3:checked~.course-programm-wrapper-left__label-3::before {
+    background: url(../../../img/icons/Plus.svg);
+    width: 18px;
+    height: 18px;
+}
+
+.course-programm-wrapper-left__label-3 {
+  display: block;
+  position: relative;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+//4
+.course-programm-wrapper-left__input-4 {
+  display: none;
+}
+.course-programm-wrapper-left__text-4 {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.4s;
+}
+
+.course-programm-wrapper-left__input-4:checked~.course-programm-wrapper-left__text-4 {
+  max-height: 100px;
+}
+
+.course-programm-wrapper-left__label-4::before {
+  content: "";
+  position: absolute;
+  left: -125px;
+  top: 7px;
+  background: url(../../../img/icons/Minus.svg);
+  width: 18px;
+  height: 18px;
+}
+
+.course-programm-wrapper-left__input-4:checked~.course-programm-wrapper-left__label-4::before {
+    background: url(../../../img/icons/Plus.svg);
+    width: 18px;
+    height: 18px;
+}
+
+.course-programm-wrapper-left__label-4 {
+  display: block;
+  position: relative;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+//5
+.course-programm-wrapper-left__input-5 {
+  display: none;
+}
+.course-programm-wrapper-left__text-5 {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.4s;
+}
+
+.course-programm-wrapper-left__input-5:checked~.course-programm-wrapper-left__text-5 {
+  max-height: 100px;
+}
+
+.course-programm-wrapper-left__label-5::before {
+  content: "";
+  position: absolute;
+  left: -125px;
+  top: 7px;
+  background: url(../../../img/icons/Minus.svg);
+  width: 18px;
+  height: 18px;
+}
+
+.course-programm-wrapper-left__input-5:checked~.course-programm-wrapper-left__label-5::before {
+    background: url(../../../img/icons/Plus.svg);
+    width: 18px;
+    height: 18px;
+}
+
+.course-programm-wrapper-left__label-5 {
+  display: block;
+  position: relative;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+//6
+.course-programm-wrapper-left__input-6 {
+  display: none;
+}
+.course-programm-wrapper-left__text-6 {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.4s;
+}
+
+.course-programm-wrapper-left__input-6:checked~.course-programm-wrapper-left__text-6 {
+  max-height: 100px;
+}
+
+.course-programm-wrapper-left__label-6::before {
+  content: "";
+  position: absolute;
+  left: -125px;
+  top: 7px;
+  background: url(../../../img/icons/Minus.svg);
+  width: 18px;
+  height: 18px;
+}
+
+.course-programm-wrapper-left__input-6:checked~.course-programm-wrapper-left__label-6::before {
+    background: url(../../../img/icons/Plus.svg);
+    width: 18px;
+    height: 18px;
+}
+
+.course-programm-wrapper-left__label-6 {
+  display: block;
+  position: relative;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+//7
+.course-programm-wrapper-left__input-7 {
+  display: none;
+}
+.course-programm-wrapper-left__text-7 {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.4s;
+}
+
+.course-programm-wrapper-left__input-7:checked~.course-programm-wrapper-left__text-7 {
+  max-height: 100px;
+}
+
+.course-programm-wrapper-left__label-7::before {
+  content: "";
+  position: absolute;
+  left: -125px;
+  top: 7px;
+  background: url(../../../img/icons/Minus.svg);
+  width: 18px;
+  height: 18px;
+}
+
+.course-programm-wrapper-left__input-7:checked~.course-programm-wrapper-left__label-7::before {
+    background: url(../../../img/icons/Plus.svg);
+    width: 18px;
+    height: 18px;
+}
+
+.course-programm-wrapper-left__label-7 {
+  display: block;
+  position: relative;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+//8
+.course-programm-wrapper-left__input-8 {
+  display: none;
+}
+.course-programm-wrapper-left__text-8 {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.4s;
+}
+
+.course-programm-wrapper-left__input-8:checked~.course-programm-wrapper-left__text-8 {
+  max-height: 100px;
+}
+
+.course-programm-wrapper-left__label-8::before {
+  content: "";
+  position: absolute;
+  left: -125px;
+  top: 7px;
+  background: url(../../../img/icons/Minus.svg);
+  width: 18px;
+  height: 18px;
+}
+
+.course-programm-wrapper-left__input-8:checked~.course-programm-wrapper-left__label-8::before {
+    background: url(../../../img/icons/Plus.svg);
+    width: 18px;
+    height: 18px;
+}
+
+.course-programm-wrapper-left__label-8 {
+  display: block;
+  position: relative;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+
+
+.course-programm-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-programm-wrapper-left{
+    &__subtitle{
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-family: Lato-bold;
+        color: $color-text;
+        margin-bottom: 8px;
+    }
+    &__title{
+        font-size: 46px;
+        line-height: 130%;
+        font-family: Lato-black;
+        color: $color-text;
+        margin-bottom: 60px;
+    }
+    &__lesson{
+        font-size: 20px;
+        line-height: 150%;
+        color: $color-background;
+        font-family: Lato-regular;
+    }
+    &__label{
+        font-size: 20px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        color: $color-text;
+    }
+    &__text{
+        width: 560px;
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-regular;
+        color: $color-title;
+    }
+}

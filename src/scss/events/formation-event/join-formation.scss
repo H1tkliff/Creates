@@ -1,0 +1,17 @@
+.join-formation{
+    margin-bottom: 120px;
+}
+.join-formation-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.join-formation-wrapper-left{
+   &__text{
+        margin-top: 24px;
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-regular;
+        color: $color-title;
+   }
+}

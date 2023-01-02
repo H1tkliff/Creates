@@ -1,0 +1,88 @@
+.curse-curator{
+    margin-bottom: 180px;
+}
+
+.curse-curator-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.curse-curator-wrapper-right-content{
+    &__subtitle{
+        padding-top: 20px;
+        font-size: 16px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $color-text;
+        margin-bottom: 8px;
+    }
+    &__title{
+        font-size: 46px;
+        line-height: 130%;
+        font-family: Lato-black;
+        color: $color-text;
+        margin-bottom: 16px;
+    }
+    &__info{
+        font-size: 20px;
+        line-height: 150%;
+        font-family: Lato-regular;
+        color: $color-subtitle;
+        margin-bottom: 32px;
+    }
+    &__infos{
+        margin-bottom: 32px;
+    }
+    &__value{
+        padding-left: 24px;
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-bold;
+        color: $color-text;
+        margin-bottom: 4px;
+        position: relative;
+    }
+    &__star::before{
+        position: absolute;
+        content: "";
+        background: url(../../../img/icons/course-star.svg);
+        width: 16px;
+        height: 16px;
+        left: 0;
+        top: 4px;
+    }
+    &__play::before{
+        position: absolute;
+        content: "";
+        background: url(../../../img/icons/course-play.svg);
+        width: 16px;
+        height: 16px;
+        left: 0;
+        top: 4px;
+    }
+    &__profile::before{
+        position: absolute;
+        content: "";
+        background: url(../../../img/icons/course-profile.svg);
+        width: 16px;
+        height: 16px;
+        left: 0;
+        top: 4px;
+    }
+    &__text{
+        max-width: 600px;
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-regular;
+        color: $color-title;
+        margin-bottom: 40px;
+    }
+    &__socials{
+        display: flex;
+    }
+    &__link{
+        margin-right: 24px;
+    }
+}

@@ -1,0 +1,61 @@
+.subscribe{
+    background: url(../../img/subscribe-background.png);
+    height: 564px;
+    &__subtitle{
+        padding-top: 120px;
+        text-align: center;
+        font-size: 16px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        color: $color-text;
+        margin-bottom: 8pb;
+    }
+    &__title{
+        font-size: 46px;
+        line-height: 130%;
+        font-family: Lato-black;
+        color: $color-text;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    &__wrapper{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 248px;
+    }
+    &__input{
+        border: 1px solid #D7DADD;
+        border-radius: 4px;
+        width: 422px;
+        height: 52px;
+        background: #FFFFFF;
+        padding: 6px 10px 6px 18px;
+        margin-right: 24px;
+        &::placeholder{
+            font-size: 16px;
+            line-height: 160%;
+            font-family: Lato-regular;
+            color: #9A9CA5;
+        }
+    }
+    &__button{
+        width: 154px;
+        height: 52px;
+        background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+        border-radius: 4px;
+        font-size: 16px;
+        line-height: 52px;
+        font-family: Lato-bold;
+        letter-spacing: 0.5px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+
+.subscribe-allcourses{
+    margin-top: 120px;
+}
+
+.subscribe__container{
+    text-align: center;
+}

@@ -1,0 +1,87 @@
+@import '_nullstyles.scss';
+@import 'fonts.scss';
+@import '_variables.scss';
+@import './homepage/header';
+@import './header-nobackground';
+//HOMEPAGE START
+@import './homepage/start-screen';
+@import './homepage/who-we-are';
+@import './homepage/courses';
+@import './homepage/benefits';
+@import './homepage/events';
+@import './homepage/certificate';
+@import './homepage/team';
+@import './homepage/blog.scss';
+@import './homepage/subscribe';
+@import './footer';
+//HOMEPAGE END
+
+//OUR COURSES START
+@import './courses/our-courses';
+@import './courses/feedback';
+//OUR COURSES END
+
+//EVENTS START
+@import './events/our-events';
+
+//EVENTS END
+
+//ABOUT US START
+@import './about-us/start-information';
+@import './about-us/video-info.scss';
+@import './about-us/values';
+@import './about-us/directions';
+@import './about-us/progress';
+@import './about-us/about-team';
+@import './about-us/about-feedback.scss';
+
+//ABOUT US END
+
+//BLOG START
+@import './blog/our-blog';
+@import './blog/subscribe-blog';
+
+//BLOG END
+
+//CONTACTS START
+@import './contacts/contacts-info';
+@import './contacts/questions.scss';
+//CONTACTS END
+.header-active{
+    color: $color-background;
+}
+
+//USER-EXPERIENCE-COURCE
+
+@import './courses/user-experience-course/header-user-experience-course';
+@import './courses/user-experience-course/about-user-experience-course';
+@import './courses/user-experience-course/curator-user-experience-course';
+@import './courses/user-experience-course/step-user-experience-course';
+@import './courses/user-experience-course/course-programm-user-experience-course.scss';
+@import './courses/user-experience-course/feedback-user-experience-course';
+@import './courses/user-experience-course/other-courses-user-experience-course';
+
+
+//USER-EXPERIENCE-COURCE END
+
+
+//FORMATION-EVENT START
+@import './events/formation-event/speaker-formation';
+@import './events/formation-event/benefit-formation';
+@import './events/formation-event/join-formation';
+@import './events/formation-event/other-formation';
+
+
+//FORMATION-EVENT END
+
+
+//BLOG-HR-STATISTICS START
+@import './blog/hr-statistics/info-hr-statisticks';
+@import './blog/hr-statistics/more-blogs-statisticks';
+
+//BLOG-HR-STATISTICS END
+
+
+
+
+

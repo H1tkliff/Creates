@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    @@include('html/head.html',{
+    "title": "Главная"
+    })
+</head>
+
+<body>
+    @@include('html/Blog/header-blog.html',{})
+    <main>
+        @@include('html/Blog/our-blog.html',{})
+        @@include('html/Blog/subscribe-blog.html',{})
+    </main>
+    @@include('html/Blog/blog-footer.html',{})
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/app.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+.speaker-formation{
+    margin-bottom: 180px;
+}
+.speaker-formation-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 180px;
+}
+
+.speaker-formation-wrapper-left{
+    &__title{
+        font-size: 46px;
+        line-height: 130%;
+        font-family: Lato-black;
+        color: $color-text;
+        margin-bottom: 40px;
+    }
+}
+
+.speaker-formation-wrapper-right{
+    width: 495px;
+    height: 455px;
+    border: 1px solid #E5E8ED;
+    box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+    border-radius: 4px;
+    &__subtitle{
+        padding-top: 40px;
+        padding-left: 32px;
+        font-size: 14px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $color-text;
+        margin-bottom: 4px;
+    }
+    &__title{
+        padding-left: 32px;
+        font-size: 24px;
+        line-height: 130%;
+        font-family: Lato-bold;
+        color: $color-background;
+        margin-bottom: 8px;
+    }
+    &__text{
+        padding-left: 32px;
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-regular;
+        color: $color-subtitle;
+        width: 429px;
+    }
+    &__link{
+        margin-top: 32px;
+        display: block;
+        padding-left: 32px;
+        font-size: 14px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        letter-spacing: 1px;
+        text-decoration-line: underline;
+        text-transform: uppercase;
+        color: $color-background;
+        margin-bottom: 40px;
+    }
+    &__button{
+        margin-left: 32px;
+        width: 431px;
+        height: 44px;
+        background: $color-background;
+        border-radius: 4px;
+        font-size: 14px;
+        line-height: 44px;
+        font-family: Lato-bold;
+        letter-spacing: 0.5px;
+        color: white;
+    }
+}
+
+.event-spiker-list{
+    display: flex;
+    margin-bottom: 40px;
+    &__item{
+         margin-right: 40px;
+    }
+}

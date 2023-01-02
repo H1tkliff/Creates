@@ -1,0 +1,38 @@
+.video-info{
+    margin-bottom: 180px;
+    &__play{
+        margin-right: 16px;
+        margin-bottom: 32px;
+    }
+    &__button-subtitle{
+        font-size: 14px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        color: $color-text;
+    }
+}
+
+.video-info-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.video-info-content-right{
+    padding-top: 85px;
+    &__num{
+        font-size: 48px;
+        line-height: 130%;
+        font-family: Lato-black;
+        letter-spacing: 1px;
+        color: $color-background;
+        padding-right: 16px;
+    }
+    &__info{
+        display: inline-block;
+        font-size: 18px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        color: $color-text;
+        transform: translateY(-40%);
+    }
+}

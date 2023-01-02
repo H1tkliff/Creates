@@ -1,0 +1,188 @@
+.step{
+    margin-bottom: 180px;
+    &__subtitle{
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-family: Lato-bold;
+        color: $color-text;
+        margin-bottom: 8px;
+    }
+    &__title{
+        font-size: 46px;
+        line-height: 130%;
+        font-family: Lato-black;
+        text-align: center;
+        color: $color-text;
+        margin-bottom: 60px;
+    }
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 180px;
+    }
+}
+
+.step-card{
+    &__number{
+        font-size: 46px;
+        line-height: 130%;
+        font-family: Lato-black;
+        color: #D7DADD;
+        position: relative;
+      
+
+       
+    }
+     &__number::after{
+        position: absolute;
+        content: "";
+        width: 209px;
+        height: 10px;
+        right: -233px;
+        top: 28px;
+        border-top: 1px dashed #D7DADD;
+     }
+    &__title{
+        padding-top: 16px;
+        font-size: 20px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        color: $color-text;
+        margin-bottom: 8px; 
+    }
+    &__text{
+        width: 285px;
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-regular;
+        color: $color-subtitle;
+    }
+}
+
+
+
+.join-the-course{
+    margin-bottom: 180px;
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 48px;
+        margin-bottom: 32px;
+    }
+    &__desc{
+        font-size: 32px;
+        line-height: 130%;
+        font-family: Lato-black;
+        color: $color-text;
+        padding-left: 65px;
+    }
+    &__infos{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        padding-right: 36px;
+    }
+    &__info{
+        font-size: 20px;
+        line-height: 130%;
+        font-family: Lato-bold;
+        color: $color-text;
+        padding-right: 24px;
+    }
+    &__text{
+        font-size: 12px;
+        line-height: 150%;
+        font-family: Lato-regular;
+        color: $color-text;
+    }
+}
+
+.join-the-course-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 62px;
+    &__label{
+        display: block;
+        font-size: 14px;
+        line-height: 150%;
+        font-family: Lato-regular;
+        color: $color-title;
+        margin-bottom: 8px;
+    }
+    &__input{
+        width: 291px;
+        height: 44px;
+        margin-bottom: 60px;
+        padding-left: 16px;
+    }
+    &__input::placeholder{
+        font-size: 14px;
+        line-height: 150%;
+        font-family: Lato-regular;
+        color: #9A9CA5;
+        
+    }
+    &__button{
+        width: 166px;
+        height: 44px;
+        background: $color-background;
+        margin-top: 29px;
+        font-size: 14px;
+        line-height: 44px;
+        font-family: Lato-bold;
+        letter-spacing: 0.5px;
+        color: white;
+    }
+}
+
+.benefit{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 180px;
+}
+
+.benefit-left{
+    &__subtitle{
+        font-size: 16px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $color-text;
+        margin-bottom: 8px;
+    }
+    &__title{
+        font-size: 46px;
+        line-height: 130%;
+        font-family: Lato-black;
+        color: $color-text;
+        width: 492px;
+    }
+}
+.benefit-right{
+    &__list{
+
+    }
+    &__text{
+        width: 564px;
+        padding-left: 36px;
+        font-size: 20px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        color: $color-title;
+        margin-bottom: 20px;
+        position: relative;
+    }
+    &__text::before{
+        position: absolute;
+        content: "";
+        background: url(../../../img/icons/check-red-icon.svg);
+        width: 16px;
+        height: 16px;
+        left: 0;
+        top: 7px;
+    }
+}

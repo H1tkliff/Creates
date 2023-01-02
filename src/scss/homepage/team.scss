@@ -1,0 +1,240 @@
+.team{
+     background: url(../../img/team-background.png);
+            transform: translateY(-5%);
+            height: 1570px;
+    margin-bottom: 120px;
+    &__wrapper{
+       
+        padding-top: 166px;
+    }
+    &__subtitle{
+        font-size: 16px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        color: $color-text;
+        padding-bottom: 8px;
+    }
+    &__title{
+        font-size: 46px;
+        line-height: 130%;
+        font-family: Lato-black;
+        color: $color-text;
+        margin-bottom: 60px;
+    }
+}
+.team-cards{
+    // display: flex;
+    // justify-content: space-between;
+    // margin-bottom: 180px;
+    display: grid;
+    grid-gap: 20px !important;
+}
+.team-card{
+    margin-right: 24px;
+    width: 285px !important;
+    &__img{
+            // height: 320px;
+        width: 285px;
+        background-color: #FFCF2D;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        // margin-left: 20px;
+        
+    }
+    &__title{
+        padding-top: 16px;
+        padding-bottom: 4px;
+        font-size: 20px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        color: $color-title;
+    }
+    &__subtitle{
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-regular;
+        color: $color-subtitle;
+    }
+}
+.team-card:last-child{
+    margin-right: 0px;
+}
+
+
+
+//SLIDER-TEAM
+.slick-list{
+    overflow: hidden;
+}
+.slick-track{
+    display: flex;
+}
+.team__title{
+    
+}
+.team-cards{
+    position: relative;
+}
+.team-cards .slick-arrow{
+    position: absolute;
+    top: -25%;
+    z-index: 10;
+    font-size: 0;
+    width: 24px !important;
+    height: 24px;
+}
+.team-cards .slick-arrow.slick-prev{
+    right: -16%;
+    padding-right: 60px;
+    margin-right: 200px;
+    background: url(../../img/icons/icon-left-click-nohover.svg) 0 0 no-repeat;
+}
+.team-cards .slick-arrow.slick-prev:hover{
+    // background: $color-background;
+   
+
+}
+.team-cards .slick-arrow.slick-next{
+    right: -16.2%;
+    top: -26.3%;
+    background: url(../../img/icons/icon-right-click-nohover.svg) 0 0 no-repeat;
+    margin-right: 200px;
+}
+.team-cards .slick-arrow.slick-next:hover{
+        // background: url(../../img/icons/icon-right-click-hover.svg);
+
+        //+ - работает
+    //  background: url(../../img/icons/icon-left-click-hover.png) 0 0 no-repeat;
+    // right: -16.2%;
+    // top: -26.3%;
+    // margin-right: 200px;
+    //  width: 45px !important;
+    // height: 45px;
+}
+
+.team-card{
+
+}
+
+
+//FEEDBACK
+.feedback-wrapper{
+    padding-top: 160px;
+}
+.feedback-subtitle{
+    font-size: 16px;
+    line-height: 150%;
+    font-family: Lato-bold;
+    color: $color-text;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.feedback-title{
+    font-size: 46px;
+    line-height: 130%;
+    font-family: Lato-black;
+    color: $color-text;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.feedback-slider{
+    border-radius: 4px;
+    box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);    
+    background: #FFFFFF;
+    height: 344px;
+}
+.feedback-slider-card{
+    &__wrapper{
+        padding: 64px 105px 160px 163px;
+    }
+    &__text{
+        width: 752px;
+        font-size: 20px;
+        line-height: 150%;
+        font-family: Lato-regular;
+        color: $color-title;
+        padding-bottom: 24px;
+    }
+    &__img{
+        display:inline;
+        width: 72px;
+        height: 72px;
+       
+    }
+    &__name{
+        display: block;
+        padding-left: 20px;
+        position: absolute;
+        top: 22%;
+        left: 7.9%;
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-bold;
+        color: $color-text;
+        
+
+    }
+    &__position{
+        padding-left: 20px;
+        position: absolute;
+        top: 55%;
+        left: 7.9%;
+        font-size: 14px;
+        line-height: 150%;
+        font-family: Lato-regular;
+        color: $color-subtitle;
+    }
+}
+.wrapper{
+     position: relative;
+     
+}
+
+//feedback slider
+.feedback-wrapper{
+    position: relative;
+}
+.feedback-slider .slick-arrow{
+    position: absolute;
+    z-index: 10;
+    font-size: 0;
+    width: 24px;
+    height: 24px;
+}
+.feedback-slider .slick-arrow.slick-prev{
+    background: url(../../img/icons/icon-left-click-nohover.svg) 0 0 no-repeat;
+    top: 73%;
+    left: -7%;
+}
+.feedback-slider .slick-arrow.slick-next{
+    background: url(../../img/icons/icon-right-click-nohover.svg) 0 0 no-repeat;
+    top: 73%;
+    right: -7%;
+}
+
+.feedback-slider .slick-dots{
+    display: flex;
+    font-size: 0;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+
+}
+.feedback-slider .slick-dots li{
+     list-style: none;
+     padding-right: 12px;
+   
+     
+}
+.feedback-slider .slick-dots button{
+     font-size: 0;
+        width: 30px;
+     height: 0px;
+     border: 1.5px solid #B3B7BC;
+     padding-right: 12px;
+
+   
+}

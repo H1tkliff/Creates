@@ -1,0 +1,118 @@
+.directions{
+    margin-bottom: 180px;
+    &__subtitle{
+        font-size: 16px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        color: $color-text;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+        text-align: center;
+    }
+    &__title{
+        font-size: 46px;
+        line-height: 130%;
+        font-family: Lato-black;
+        color: $color-text;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+}
+
+.directions-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px 30px;
+}
+
+.directions-container-card{
+    max-width: 390px;
+    height: 420px;
+    border: 1px solid #E5E8ED;
+    border-radius: 4px;
+    &__type{
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-bold;
+        text-align: center;
+        color: white;
+        margin-top: 24px;
+        margin-left: 24px;
+        margin-bottom: 20px;
+        border-radius: 4px;
+        padding: 1px 8px;
+    }
+    &__type--marketing{
+        width: 90px;
+        height: 28px;
+        background: #03CEA4;
+    }
+    &__type--managment{
+        width: 110px;
+        height: 28px;
+        background: #5A87FC;
+    }
+    &__type--hr{
+        width: 127px;
+        height: 28px;
+        background: #F89828;
+    }
+    &__type--design{
+        width: 66px;
+        height: 28px;
+        background: #F52F6E;
+    }
+    &__type--development{
+        width: 113px;
+        height: 28px;
+        background: #7772F1;
+    }
+
+    &__info{
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-regular;
+        color: $color-subtitle;
+        padding-left: 24px;
+        margin-bottom: 20px;
+    }
+    &__link{
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-bold;
+        color: $color-text;
+        position: relative;
+        padding-left: 24px;
+        
+    }
+    &__link:hover{
+        color: $color-background;
+    }
+    &__link::after{
+        position: absolute;
+        content: "";
+        background: url(../../img/icons/arror-right-red.svg);
+        width: 24px;
+        height: 24px;
+        top: 2px;
+        left: 134px;
+    }
+
+    &__new{
+        font-size: 20px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        color: #424551;
+        text-align: center;
+        padding-top: 164px;
+        padding-left: 74px;
+        max-width: 314px;
+    }
+
+}
+
+.directions-container-card--new{
+    background: #F4F5F7;
+    border-radius: 4px;
+}

@@ -1,0 +1,108 @@
+.blog{
+    margin-bottom: 180px;
+    &__subtitle{
+        font-size: 16px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        color: $color-text;
+        margin-bottom: 8px;
+    }
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 60px;
+    }
+    &__title{
+        font-size: 46px;
+        line-height: 130%;
+        font-family: Lato-black;
+        color: $color-text;
+    }
+    &__button{
+        width: 159px;
+        height: 52px;
+        border-radius: 4px;
+        background: $color-background;
+        font-size: 16px;
+        line-height: 52px;
+        font-family: Lato-bold;
+        color: white;
+    }
+    &__button:hover{
+        opacity: 0.7;
+    }
+}
+
+.blog-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.blog-card{
+    &__theme, &__date, &__time{
+        padding-top: 16px;
+        font-size: 14px;
+        line-height: 150%;
+        font-family: Lato-regular;
+        color: $color-subtitle;
+        position: relative;
+
+    }
+    &__img{
+        margin-bottom: 16px;
+    }
+    &__theme{
+        padding-right: 25px;
+    }
+    &__date{
+        padding-right: 25px;
+    }
+    &__date::before{
+        content: "";
+        position: absolute;
+        background: url(../../img/icons/blog-data.svg);
+        width: 15px;
+        height: 15px;
+        left: -15%;
+        top: 53%;
+    }
+    &__time::before{
+        content: "";
+        position: absolute;
+        background: url(../../img/icons/blog-time.svg);
+        width: 15px;
+        height: 15px;
+        left: -47%;
+        top: 53%;
+    }
+    &__title{
+        padding-top: 8px;
+        font-size: 20px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        color: $color-text;
+        margin-bottom: 8px;
+    }
+    &__text{
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-regular;
+        color: $color-title;
+        margin-bottom: 16px;
+    }
+    &__desc{
+        font-size: 16px;
+        line-height: 160%;
+        font-family: Lato-bold;
+        color: $color-text;
+        position: relative;
+    }
+    &__desc::after{
+        content: "";
+        position: absolute;
+        background: url(../../img/icons/blog-link.svg);
+        width: 18px;
+        height: 11px;
+        margin-left: 8px;
+        top: 26%;
+    }
+}

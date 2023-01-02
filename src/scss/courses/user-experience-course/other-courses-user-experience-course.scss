@@ -1,0 +1,83 @@
+.other-courses{
+    &__subtitle{
+        font-size: 16px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        color: $color-text;
+        margin-bottom: 8px;
+    }
+    &__title{
+        font-size: 46px;
+        line-height: 130%;
+        font-family: Lato-black;
+        color: $color-text;
+        margin-bottom: 60px;
+    }
+}
+.other-courses-cards{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 80px;
+   
+}
+.other-courses-card{
+    display: flex;
+    justify-content: space-between;
+    width: 600px !important;
+    height: 214px;
+    border: 1px solid #E5E8ED;
+    box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+    border-radius: 4px;
+    margin-right: 20px;
+    &__title{
+        width: 322px;
+    }
+
+}
+
+.other-courses-cards .slick-arrow{
+    position: absolute;
+    top: -35%;
+    z-index: 10;
+    font-size: 0;
+    width: 24px !important;
+    height: 24px;
+}
+
+.other-courses-cards .slick-arrow.slick-prev{
+    right: -16%;
+    padding-right: 60px;
+    margin-right: 200px;
+    background: url(../../img/icons/icon-left-click-nohover.svg) 0 0 no-repeat;
+}
+.other-courses-cards .slick-arrow.slick-next{
+    right: -16.2%;
+    top: -37.3%;
+    background: url(../../img/icons/icon-right-click-nohover.svg) 0 0 no-repeat;
+    margin-right: 200px;
+}
+
+.more-courses{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 185px;
+    &__title{
+        font-size: 28px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        color: $color-text;
+        margin-right: 40px;
+    }
+    &__link{
+        width: 202px;
+        height: 52px; 
+        background: $color-background;
+        text-align: center;
+        font-size: 16px;
+        line-height: 52px;
+        font-family: Lato-bold;
+        letter-spacing: 0.5px;
+        color: white;
+    }
+}

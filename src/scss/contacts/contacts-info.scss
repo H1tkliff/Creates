@@ -1,0 +1,92 @@
+.contacts-info{
+    margin-bottom: 180px;
+}
+
+.contacts-info-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts-info-wrapper-left{
+    &__subtitle{
+        font-size: 16px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        color: $color-text;
+        margin-bottom: 8px;
+    }
+    &__title{
+        font-size: 46px;
+        line-height: 130%;
+        font-family: Lato-black;
+        color: $color-text;
+        margin-bottom: 40px;
+    }
+    &__talk{
+        position: relative;
+        padding-left: 36px;
+        margin-bottom: 24px;
+    }
+    &__talk::before{
+        position: absolute;
+        content: "";
+        background: url(../../img/icons/contacts-info-chat.svg);
+        width: 24px;
+        height: 24px;
+        left: 1px;
+    }
+    &__info-subtitle{
+        font-size: 14px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        color: $color-subtitle;
+    }
+    &__contact{
+        font-size: 18px;
+        line-height: 150%;
+        font-family: Lato-regular;
+        color: $color-text;
+    }
+
+    &__call{
+        position: relative;
+        padding-left: 36px;
+        margin-bottom: 24px;
+    }
+    &__call::before{
+        position: absolute;
+        content: "";
+        background: url(../../img/icons/contacts-info-iphone.svg);
+        width: 24px;
+        height: 24px;
+        left: 1px;
+    }
+
+    &__adress{
+        position: relative;
+        padding-left: 36px;
+        margin-bottom: 48px;
+    }
+    &__adress::before{
+        position: absolute;
+        content: "";
+        background: url(../../img/icons/contacts-info-adress.svg);
+        width: 24px;
+        height: 24px;
+        left: 1px;
+    }
+
+    &__follow{
+        font-size: 16px;
+        line-height: 150%;
+        font-family: Lato-bold;
+        color: $color-text;
+        margin-bottom: 24px;
+    }
+    &__socials{
+
+    }
+    &__links{
+        padding-right: 32px;
+    }
+}
